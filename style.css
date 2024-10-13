@@ -1,0 +1,73 @@
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color:rgba(207, 213, 219, 0.662);
+    text-align: center;
+
+}
+.container{
+    border:1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    padding:30px 60px ;  
+    box-shadow: 20px 20px 5px rgb(208, 217, 249),-20px 20px 5px rgb(208, 217, 249),20px -20px 5px rgb(208, 217, 249),-20px -20px 5px rgb(208, 217, 249);
+}
+.container h1{
+    color: rgb(4, 0, 71);
+    font-size: 25px;
+}
+.container .text p{
+    color:rgb(30, 26, 93); 
+    font-weight: 400;
+    font-size: 15px;
+    font-weight: 200;
+}
+.container .facebook button{
+    color: white;
+    background-color:rgb(63, 80, 191); 
+    border:1px solid rgb(63, 80, 191) ;
+    border-radius: 5px;
+    padding: 15px 65px;
+}
+.container .info p{
+    color: grey;
+    font-size: 15px;
+}
+.container .info .name input{
+    display: inline-block;
+    border: 2px solid rgb(160, 183, 204);
+    border-radius: 3px;
+    width: 110px;
+    padding: 15px 5px 15px 10px;
+}
+.container .info .email input{
+    border: 2px solid rgb(160, 183, 204);
+    border-radius: 3px;
+    width: 240px;
+    margin-top: 15px;
+    padding: 15px 7px 15px 10px;
+}
+.container .info .password input{
+    border: 2px solid rgb(160, 183, 204);
+    border-radius: 3px;
+    width: 240px;
+    margin-top: 15px;
+    padding: 15px 7px 15px 10px;
+}
+.container .info .create button{
+    width: 260px;
+    border: 2px solid rgb(33, 40, 85);
+    border-radius: 3px;
+    margin-top: 15px;
+    padding: 15px 7px 15px 10px;
+    background-color: rgb(33, 40, 85);
+    color: white;
+}
+.container .agree p{
+    color: rgb(96, 106, 153);
+    font-size:10px;
+    margin-top: 35px;
+}
